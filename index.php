@@ -15,7 +15,7 @@ if(isset($_SESSION['login']))
 </head>
 <body>
 
-<h2><a href="checklogin.php">Admin Page</a></h2>
+<h2><a href="logics/authorize.php">Admin Page</a></h2>
     <form method="POST" action="results.php">
         <?php 
 
@@ -29,7 +29,7 @@ if(isset($_SESSION['login']))
                 echo "<input type='number' name='player1[]'/>";
                 echo "<input type='number' name='player2[]'/>";
             }
-//
+
             echo "<br/><br/>";
             echo "<input type='submit'/>";
             
