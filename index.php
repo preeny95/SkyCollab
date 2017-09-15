@@ -1,11 +1,21 @@
+<?php 
+include 'includes/session.inc.php';
+//include 'logics/authorize.php';
 
+if(isset($_SESSION['login']))
+{
+     include('includes/session-logout.php');
+}else
+{ include('includes/session-login.php');
+}
+?>
 <html>
 <head>
     <title>Super Arrows</title>
 </head>
 <body>
-    <h1>Welcome to Super Arrows!</h1>
 
+<h2><a href="checklogin.php">Admin Page</a></h2>
     <form method="POST" action="results.php">
         <?php 
 
