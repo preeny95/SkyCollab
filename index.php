@@ -10,7 +10,7 @@
         <?php 
 
         
-            //change to 2d array
+            //change to reading file from JSON
             $allGames = array(array("James Smith", "Luke Green"), array("Phil Taylor", "Michael Van Gerwin"));
 
             foreach($allGames as $game)
