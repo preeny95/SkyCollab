@@ -29,7 +29,7 @@ if(isset($_SESSION['login']))
                 echo "<input type='number' name='player1[]'/>";
                 echo "<input type='number' name='player2[]'/>";
             }
-
+//
             echo "<br/><br/>";
             echo "<input type='submit'/>";
             
